@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AnalysisLevel>latest-recommended</AnalysisLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DotnetCqrs.Domain\DotnetCqrs.Domain.csproj" />
+    <ProjectReference Include="..\DotnetCqrs.Application\DotnetCqrs.Application.csproj" />
+    <ProjectReference Include="..\DotnetCqrs.Infrastructure\DotnetCqrs.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
