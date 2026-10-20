@@ -1,0 +1,7 @@
+global:
+  scrape_interval: 5s
+
+scrape_configs:
+  - job_name: 'cqrs-engine'
+    static_configs:
+      - targets: ['cqrs-engine:8080']
