@@ -1,6 +1,7 @@
 using FluentAssertions;
 using Microsoft.Extensions.Logging.Abstractions;
 using Xunit;
+using DotnetCqrs.Application.Abstractions;
 using DotnetCqrs.Application.Orders.Commands;
 using DotnetCqrs.Infrastructure.EventStore;
 using DotnetCqrs.Infrastructure.Outbox;
